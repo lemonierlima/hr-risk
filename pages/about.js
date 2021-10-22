@@ -3,10 +3,9 @@ import Link from 'next/link';
 function About(){
     return (
         <div>
-            <h2>About</h2>
-            <Contador />
+            <h2>About</h2>            
             <Link href="/">
-                <a>About Us</a>
+                <a>Home</a>
             </Link>
         </div>
     )
